@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Yes! Happy Valentine's Day!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('Gothic3.jpg'); /* Replace 'your-image-url.jpg' with the actual URL or path of your image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .content-container {
+            color: #fff; /* Change the text color as needed for visibility against the background */
+        }
+
+        .back-button {
+            background-color: #ff6666; /* Button background color */
+            color: #fff; /* Button text color */
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 50%; /* Make the button circular */
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .back-button::before {
+            content: '\2665'; /* Unicode for a heart character */
+            font-size: 1.5em;
+            margin-right: 5px;
+        }
+
+        /* Add any additional styles as needed */
+    </style>
+</head>
+<body>
+    <div class="content-container">
+        <h1>She Said Yes!!!!!</h1>
+        <!-- First gif below the question -->
+        <div class="gif-container">
+            <!-- Replace the src attribute with your actual animated gif URL -->
+            <img src="https://c.tenor.com/Yn2pt6Ew2BEAAAAC/tenor.gif" alt="Cute Animated Gif 1">
+        </div>
+        <!-- Back button -->
+        <button class="back-button" onclick="goBack()">Again?</button>
+    </div>
+
+    <script>
+        function goBack() {
+            window.location.href = "index.html"; // Replace with the actual URL of your home page
+        }
+    </script>
+</body>
+</html>
