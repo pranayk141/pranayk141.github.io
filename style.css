@@ -6,7 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url('Gothic4.jpg'); /* Replace 'your-background-image.jpg' with the actual URL or path of your background image */
+    background-image: url('./pics/purple2.avif'); /* Replace 'your-background-image.jpg' with the actual URL or path of your background image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
